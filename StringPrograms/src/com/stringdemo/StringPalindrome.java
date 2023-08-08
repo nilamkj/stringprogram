@@ -1,0 +1,34 @@
+package com.stringdemo;
+
+import java.util.Scanner;
+
+public class StringPalindrome {
+
+	public static void stringPalindrome(String s)
+	{
+		int len=s.length();
+		String rev=" ";
+		
+		for(int i=len-1;i>=0;i--)
+		{
+			rev=rev+s.charAt(i);
+		}
+		if(s.equals(rev))
+		{
+			System.out.println(s+" is palindrome");
+		}
+		else
+		{
+			System.out.println(s+" is palindrome");
+		}
+		
+	}
+	
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the string: ");
+		String d=sc.next();
+		stringPalindrome(d);
+	}
+}
