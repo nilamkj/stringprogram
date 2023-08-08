@@ -19,7 +19,7 @@ public class StringPalindrome {
 		}
 		else
 		{
-			System.out.println(s+" is palindrome");
+			System.out.println(s+" is not palindrome");
 		}
 		
 	}
